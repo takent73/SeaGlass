@@ -105,6 +105,24 @@
             bindings = <&kp LANG2>;
             key-positions = <14 34>;
         };
+
+        Fix_arrow {
+            bindings = <&to 3>;
+            key-positions = <4 34>;
+            layers = <0>;
+        };
+
+        Return_default {
+            bindings = <&to 0>;
+            key-positions = <4 34>;
+            layers = <3 1>;
+        };
+
+        Fix_num {
+            bindings = <&to 1>;
+            key-positions = <5 35>;
+            layers = <0>;
+        };
     };
 
     keymap {

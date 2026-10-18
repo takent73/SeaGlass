@@ -55,7 +55,8 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&mouse_runtime_input_processor>;
+/*        input-processors = <&mouse_runtime_input_processor>;
+        input-processors = <&zip_xy_scaler 1 1>;
         snipe {
             layers = <1>;
             input-processors = <&zip_xy_scaler 2 5 &mouse_runtime_input_processor>;
